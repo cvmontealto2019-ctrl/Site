@@ -1,0 +1,583 @@
+{
+  "settings": {
+    "site_title": "Buffet Biruta Park",
+    "whatsapp": "5516997913686",
+    "instagram": "https://instagram.com/birutapark",
+    "address": "Rua Dr. Carlos Kielander, Nº15 - Centro - Monte Alto - SP",
+    "footer_text": "© Buffet Biruta Park — Deixe a diversão te guiar!",
+    "hero_title": "A festa perfeita começa aqui!",
+    "hero_subtitle": "Conheça nossa estrutura, pacotes e promoções em um só lugar.",
+    "logo_url": "/public/assets/logo.svg",
+    "favicon_url": "/public/assets/favicon.svg"
+  },
+  "users": [
+    {
+      "id": 1,
+      "login": "17717592000160",
+      "email": "admin@birutapark.com.br",
+      "password": "Biruta@2026",
+      "name": "Biruta Park"
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "name": "Infantil",
+      "subtitle": "20 crianças + 10 pessoas",
+      "base_people": 0,
+      "duration": "3 horas",
+      "availability": "Segunda a quarta",
+      "summary": "Opção prática para festas menores, com cardápio infantil e estrutura completa do Biruta Park.",
+      "rules": "Crianças de 0 a 2 anos não pagam. Apenas o(a) aniversariante não paga.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Patê de alho com torradas"
+        ],
+        "LANCHES": [
+          "Mini cachorro-quente"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de queijo",
+          "Coxinha de frango"
+        ],
+        "BEBIDAS": [
+          "Coca-Cola",
+          "Guaraná Kuat",
+          "Suco de laranja com gominhos",
+          "Suco de uva",
+          "Água"
+        ],
+        "E MAIS": [
+          "Carrinho de picolé",
+          "Decoração (consultar)",
+          "Convites virtuais",
+          "4 monitores",
+          "2 garçons",
+          "Recepcionista / gerente de festa"
+        ],
+        "ENTRADA DO(A) ANIVERSARIANTE": [
+          "Entrada especial do(a) aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "SALGADOS ASSADOS": [],
+        "BOLO": [
+          "Consulte opções com a equipe"
+        ],
+        "DOCINHOS": []
+      },
+      "active": true,
+      "featured": false,
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "name": "Escolar",
+      "subtitle": "Para 40 pessoas",
+      "base_people": 0,
+      "duration": "3 horas",
+      "availability": "Segunda a quarta",
+      "summary": "Pacote com cardápio completo, ideal para festas escolares e comemorações práticas.",
+      "rules": "Sem limite de adultos ou crianças dentro da quantidade contratada.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "LANCHES": [
+          "Mini cachorro-quente"
+        ],
+        "SALGADOS ASSADOS": [
+          "Esfiha de carne",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de queijo",
+          "Coxinha de frango"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água",
+          "Coca-Cola Original",
+          "Coca-Cola Zero",
+          "Guaraná Kuat",
+          "Fanta Laranja",
+          "Fanta Uva",
+          "Sprite",
+          "Suco de laranja",
+          "Suco de uva",
+          "Suco de manga",
+          "Suco de goiaba"
+        ],
+        "E MAIS": [
+          "Decoração (consultar disponibilidade e tema)",
+          "Convites",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes",
+          "Hora do piquenique"
+        ],
+        "ENTRADA DO(A) ANIVERSARIANTE": [
+          "Entrada especial do(a) aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "BOLO": [
+          "Consulte opções com a equipe"
+        ]
+      },
+      "active": true,
+      "featured": false,
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "name": "Birutinha",
+      "subtitle": "Para 50 pessoas",
+      "base_people": 0,
+      "duration": "3 horas",
+      "availability": "Segunda a sexta",
+      "summary": "Pacote tradicional com salgados, doces, bebidas, equipe e estrutura completa.",
+      "rules": "Crianças de 0 a 5 anos não pagam conforme regra do pacote. Mamãe, papai, aniversariante e até 2 irmãos não pagam.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "LANCHES": [
+          "Mini cachorro-quente"
+        ],
+        "SALGADOS ASSADOS": [
+          "Enroladinho de salsicha",
+          "Esfiha de calabresa",
+          "Esfiha de carne",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de queijo",
+          "Coxinha de frango",
+          "Coxinha de doce de leite",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água",
+          "Coca-Cola Original",
+          "Coca-Cola Zero",
+          "Guaraná Kuat",
+          "Fanta Laranja",
+          "Fanta Uva",
+          "Sprite"
+        ],
+        "E MAIS": [
+          "Decoração (consultar disponibilidade e tema)",
+          "Convites",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes",
+          "Hora do piquenique"
+        ],
+        "ENTRADA DO(A) ANIVERSARIANTE": [
+          "Entrada especial do(a) aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "BOLO": [
+          "Consulte opções com a equipe"
+        ]
+      },
+      "active": true,
+      "featured": false,
+      "sort_order": 3
+    },
+    {
+      "id": 4,
+      "name": "Biruta sem massa",
+      "subtitle": "Para 50 pessoas",
+      "base_people": 0,
+      "duration": "4 horas",
+      "availability": "Consultar agenda",
+      "summary": "Pacote completo sem massa, com maior variedade de salgados, doces, bebidas e estrutura de festa.",
+      "rules": "Sem limite de adultos ou crianças dentro da quantidade contratada.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "LANCHES": [
+          "Mini cachorro-quente",
+          "Mini cheese burguer"
+        ],
+        "SALGADOS ASSADOS": [
+          "Enroladinho de salsicha",
+          "Esfiha aberta de queijo",
+          "Esfiha de carne",
+          "Mini empada de frango",
+          "Mini empada de palmito",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de alho-poró com cream cheese",
+          "Bolinha de calabresa",
+          "Bolinha de queijo",
+          "Bolinha de requeijão",
+          "Coxinha de frango",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho",
+          "Brigadeiro de café",
+          "Bombom de uva",
+          "Coco queimado"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água",
+          "Coca-Cola Original",
+          "Coca-Cola Zero",
+          "Guaraná Kuat",
+          "Fanta Laranja",
+          "Fanta Uva",
+          "Sprite"
+        ],
+        "E MAIS": [
+          "Decoração (consultar disponibilidade e tema)",
+          "Convites",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes",
+          "Carrinho de picolé"
+        ],
+        "ENTRADA DO(A) ANIVERSARIANTE": [
+          "Entrada especial do(a) aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "BOLO": [
+          "Consulte opções com a equipe"
+        ]
+      },
+      "active": true,
+      "featured": false,
+      "sort_order": 4
+    },
+    {
+      "id": 5,
+      "name": "Biruta com massa",
+      "subtitle": "Para 50 pessoas",
+      "base_people": 0,
+      "duration": "4 horas",
+      "availability": "Consultar agenda",
+      "summary": "Pacote completo com massa/finger food, salgados, doces, bebidas e estrutura de festa.",
+      "rules": "Sem limite de adultos ou crianças dentro da quantidade contratada.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "LANCHES": [
+          "Mini cachorro-quente",
+          "Mini cheese burguer"
+        ],
+        "SALGADOS ASSADOS": [
+          "Enroladinho de salsicha",
+          "Esfiha aberta de queijo",
+          "Esfiha de carne",
+          "Mini empada de frango",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de queijo",
+          "Coxinha de frango",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho",
+          "Bombom de uva"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água",
+          "Coca-Cola Original",
+          "Coca-Cola Zero",
+          "Guaraná Kuat",
+          "Fanta Laranja",
+          "Fanta Uva",
+          "Sprite"
+        ],
+        "E MAIS": [
+          "Decoração (consultar disponibilidade e tema)",
+          "Convites",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes",
+          "Carrinho de picolé",
+          "Finger food: conchilli 4 queijos ao molho sugo"
+        ],
+        "ENTRADA DO(A) ANIVERSARIANTE": [
+          "Entrada especial do(a) aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "BOLO": [
+          "Consulte opções com a equipe"
+        ]
+      },
+      "active": true,
+      "featured": false,
+      "sort_order": 5
+    },
+    {
+      "id": 6,
+      "name": "Cheff",
+      "subtitle": "Para 50 pessoas",
+      "base_people": 0,
+      "duration": "4 horas",
+      "availability": "Consultar agenda",
+      "summary": "Pacote com pizza no sistema pega pizza, lanches, salgados, doces, bebidas e estrutura completa.",
+      "rules": "Sem limite de adultos ou crianças dentro da quantidade contratada.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "LANCHES": [
+          "Mini cachorro-quente",
+          "Mini cheese burguer",
+          "Pizza servida no sistema pega pizza"
+        ],
+        "SALGADOS ASSADOS": [
+          "Esfiha de carne",
+          "Mini pizza de muçarela",
+          "Mini empada"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de queijo",
+          "Coxinha de frango",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água",
+          "Coca-Cola Original",
+          "Coca-Cola Zero",
+          "Guaraná Kuat",
+          "Fanta Laranja",
+          "Fanta Uva",
+          "Sprite"
+        ],
+        "E MAIS": [
+          "Decoração (consultar disponibilidade e tema)",
+          "Convites",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes",
+          "Carrinho de picolé",
+          "Sistema pega pizza"
+        ],
+        "ENTRADA DO(A) ANIVERSARIANTE": [
+          "Entrada especial do(a) aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "BOLO": [
+          "Consulte opções com a equipe"
+        ]
+      },
+      "active": true,
+      "featured": false,
+      "sort_order": 6
+    },
+    {
+      "id": 7,
+      "name": "Gourmet",
+      "subtitle": "Para 50 pessoas",
+      "base_people": 0,
+      "duration": "4 horas",
+      "availability": "Consultar agenda",
+      "summary": "Pacote premium com finger food, saladinha gourmet, lanches, carrinho de picolé, doces, bebidas e estrutura completa.",
+      "rules": "Sem limite de adultos ou crianças dentro da quantidade contratada.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "LANCHES": [
+          "Mini cachorro-quente",
+          "Mini cheese burguer"
+        ],
+        "SALGADOS ASSADOS": [
+          "Esfiha de carne",
+          "Mini pizza de muçarela",
+          "Mini empada de frango",
+          "Salgados assados variados"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de queijo",
+          "Coxinha de frango",
+          "Croquete de carne",
+          "Kibe de carne com queijo",
+          "Coxa creme"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho",
+          "Bombom de uva"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água",
+          "Coca-Cola Original",
+          "Coca-Cola Zero",
+          "Guaraná Kuat",
+          "Fanta Laranja",
+          "Fanta Uva",
+          "Sprite"
+        ],
+        "E MAIS": [
+          "Decoração (consultar disponibilidade e tema)",
+          "Convites",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes",
+          "Carrinho de picolé",
+          "Finger food",
+          "Saladinha gourmet"
+        ],
+        "ENTRADA DO(A) ANIVERSARIANTE": [
+          "Entrada especial do(a) aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "BOLO": [
+          "Consulte opções com a equipe"
+        ]
+      },
+      "active": true,
+      "featured": false,
+      "sort_order": 7
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "title": "A festa perfeita começa aqui!",
+      "subtitle": "Conheça o Biruta Park e solicite seu orçamento pelo WhatsApp.",
+      "button_text": "Fazer orçamento",
+      "button_link": "/orcamento",
+      "image_url": "",
+      "active": true,
+      "sort_order": 1
+    }
+  ],
+  "promotions": [
+    {
+      "id": 1,
+      "title": "Promoção do mês",
+      "description": "Cadastre aqui a campanha ativa no painel administrativo.",
+      "button_text": "Participar",
+      "link": "https://mesdasmaes.birutapark.com.br",
+      "image_url": "",
+      "starts_at": null,
+      "ends_at": null,
+      "active": true,
+      "highlight": true
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Clientes Biruta Park",
+      "text": "Cadastre depoimentos reais no painel administrativo para aparecerem nesta área.",
+      "active": true
+    }
+  ],
+  "leads": [],
+  "next": {
+    "package": 8,
+    "banner": 2,
+    "promotion": 2,
+    "testimonial": 2,
+    "lead": 1
+  }
+}
