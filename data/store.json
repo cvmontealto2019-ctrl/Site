@@ -1,0 +1,1204 @@
+{
+  "settings": {
+    "site_title": "Buffet Biruta Park",
+    "whatsapp": "5516997913686",
+    "instagram": "https://instagram.com/birutapark",
+    "address": "Rua Dr. Carlos Kielander, Nº15 - Centro - Monte Alto - SP",
+    "footer_text": "© Buffet Biruta Park — Deixe a diversão te guiar!",
+    "hero_title": "A festa perfeita começa aqui!",
+    "hero_subtitle": "Conheça nossa estrutura e monte seu orçamento online em poucos passos.",
+    "logo_url": "/public/assets/logo.svg",
+    "favicon_url": "/public/assets/favicon.svg"
+  },
+  "users": [
+    {
+      "id": 1,
+      "login": "17717592000160",
+      "email": "admin@birutapark.com.br",
+      "password": "Biruta@2026",
+      "name": "Biruta Park"
+    }
+  ],
+  "budget_years": [
+    {
+      "id": 1,
+      "year": 2026,
+      "active": true
+    },
+    {
+      "id": 2,
+      "year": 2027,
+      "active": true
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "year_id": 1,
+      "name": "Infantil",
+      "subtitle": "20 crianças + 10 pessoas",
+      "base_people": 30,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "3 horas",
+      "availability": "Segunda a quarta",
+      "included": "Entrada, salgados, mini cachorro-quente, finger food, bolo, carrinho de picolé, refrigerantes, sucos, água, decoração, convites e equipe de festa.",
+      "rules": "Crianças de 0 a 2 anos não pagam. Apenas aniversariante não paga.",
+      "sort_order": 1,
+      "active": true,
+      "featured": false,
+      "menu_details": "Entrada: batata smile, pipoca salgada e patê de alho com torradas.\nSalgados: bolinha de queijo e coxinha de frango.\nLanche: mini cachorro-quente.\nFinger food: massa tipo penne ao molho sugo.\nBolo: brigadeiro com doce de leite ou mousse de chocolate.\nPicolé: carrinho de picolé.\nBebidas: Coca-Cola, Guaraná Kuat, sucos de laranja com gominhos e uva, água.\nEquipe e festa: 4 monitores, 2 garçons, recepcionista/gerente, entrada especial, fumaça, bolhas, som, microfone, iluminação e baladinha.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Patê de alho com torradas"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de queijo",
+          "Coxinha de frango"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente"
+        ],
+        "FINGER FOOD": [
+          "Massa tipo penne ao molho sugo"
+        ],
+        "BOLO": [
+          "Brigadeiro com doce de leite",
+          "Mousse de chocolate"
+        ],
+        "PICOLÉ": [
+          "Carrinho de picolé"
+        ],
+        "BEBIDAS": [
+          "Coca-Cola",
+          "Guaraná Kuat",
+          "Suco de laranja com gominhos",
+          "Suco de uva",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração (consultar)",
+          "Convites virtuais",
+          "4 monitores",
+          "2 garçons",
+          "Recepcionista / gerente de festa"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "year_id": 1,
+      "name": "Escolar",
+      "subtitle": "40 pessoas",
+      "base_people": 40,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "3 horas",
+      "availability": "Segunda a quarta",
+      "included": "Entrada, salgados, mini cachorro-quente, bolo, docinhos, refrigerantes, sucos, água, decoração, convites, hora do piquenique e equipe de festa.",
+      "rules": "Sem limite de adultos ou crianças dentro das 40 pessoas.",
+      "sort_order": 2,
+      "active": true,
+      "featured": false,
+      "menu_details": "Entrada: batata smile, pipoca salgada, mini pão de queijo e patê de alho com torradas.\nSalgados: esfiha de carne, mini pizza de muçarela, bolinha de queijo e coxinha de frango.\nLanche: mini cachorro-quente.\nBolo: brigadeiro, brigadeiro com doce de leite, mousse de chocolate, leite ninho, choco ninho ou mousse de chocolate com doce de leite.\nDocinhos: casadinho e brigadeiro.\nBebidas: Coca-Cola Original, Coca-Cola Zero, Guaraná Kuat, Fanta Guaraná Zero, Fanta Laranja, Fanta Uva, Sprite, sucos de laranja com gominhos, uva, manga e goiaba, água.\nE mais: decoração a consultar, convites físico e virtual, hora do piquenique, recepcionista, gerente de festa, monitores por brinquedo, garçons e garçonetes, entrada especial, fumaça, bolhas, som, microfone, iluminação e baladinha.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração 111 festas (consultar temas)",
+          "Convites Biruta Park",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "SALGADOS ASSADOS": [
+          "Esfiha de carne",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de queijo",
+          "Coxinha de frango"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente"
+        ],
+        "BOLO": [
+          "Brigadeiro",
+          "Brigadeiro com doce de leite",
+          "Mousse de chocolate",
+          "Leite ninho",
+          "Choco ninho",
+          "Mousse de chocolate com doce de leite"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "year_id": 1,
+      "name": "Birutinha",
+      "subtitle": "50 pessoas",
+      "base_people": 50,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "3 horas",
+      "availability": "Segunda a sexta",
+      "included": "Entrada, salgados fritos e assados, mini cachorro-quente, bolo, docinhos, refrigerantes, sucos, água, decoração, convites e equipe de festa.",
+      "rules": "Crianças de 0 a 5 anos não pagam. Mamãe, papai, aniversariante e até 2 irmãos não pagam.",
+      "sort_order": 3,
+      "active": true,
+      "featured": false,
+      "menu_details": "Entrada: batata smile, pipoca salgada, mini pão de queijo e patê de alho com torradas.\nSalgados: enroladinho de salsicha, esfiha de calabresa, esfiha de carne, mini pizza de muçarela, bolinha de queijo, coxinha de frango, coxinha de doce de leite, croquete de carne e kibe de carne com queijo.\nLanche: mini cachorro-quente.\nBolo: diversas opções, incluindo brigadeiro, mousse de chocolate, leite ninho, choco ninho, sensação, alpino, prestígio, dois amores, sonho de valsa e ouro branco.\nDocinhos: casadinho, brigadeiro, beijinho, bicho de pé e cajuzinho.\nBebidas: refrigerantes, sucos e água.\nE mais: decoração a consultar, convites, recepcionista, gerente de festa, monitores, garçons/garçonetes, entrada especial do aniversariante, máquina de fumaça, máquina de bolhas, som, microfone, iluminação e baladinha.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração 111 festas (consultar temas)",
+          "Convites Biruta Park",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "SALGADOS ASSADOS": [
+          "Enroladinho de salsicha",
+          "Esfiha de calabresa",
+          "Esfiha de carne",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de queijo",
+          "Coxinha de frango",
+          "Coxinha de doce de leite",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente"
+        ],
+        "BOLO": [
+          "Brigadeiro",
+          "Brigadeiro com doce de leite",
+          "Mousse de chocolate",
+          "Dois Amores",
+          "Prestígio",
+          "Leite ninho",
+          "Choco ninho",
+          "Sensação",
+          "Alpino"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "year_id": 1,
+      "name": "Biruta sem massa",
+      "subtitle": "50 pessoas",
+      "base_people": 50,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "4 horas",
+      "availability": "Segunda a sábado",
+      "included": "Salgados fritos e assados, mini cachorro-quente, mini cheese burguer, carrinho de picolés, bolo, docinhos, refrigerantes, sucos, água, decoração e convites.",
+      "rules": "Sem limite de adultos ou crianças. Carrinho de picolé servido após o piquenique.",
+      "sort_order": 4,
+      "active": true,
+      "featured": false,
+      "menu_details": "Entrada: batata smile, pipoca salgada, mini pão de queijo e patê de alho com torradas.\nSalgados fritos e assados: enroladinho de salsicha, esfihas, mini empadas, mini pizza, bolinhas, coxinhas, kibe e outras opções do cardápio.\nLanches: mini cachorro-quente e mini cheese burguer.\nSobremesa: carrinho de picolé.\nBolo e docinhos: bolo com opções de sabores e docinhos variados.\nBebidas: refrigerantes, sucos concentrados e água.\nE mais: decoração a consultar, convites, recepcionista, gerente de festa, monitores, garçons/garçonetes, entrada especial do aniversariante, máquina de fumaça, máquina de bolhas, som, microfone, iluminação e baladinha.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração 111 festas (consultar temas)",
+          "Convites Biruta Park",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "SALGADOS ASSADOS": [
+          "Enroladinho de salsicha",
+          "Esfiha aberta de queijo",
+          "Esfiha de carne",
+          "Mini empada de frango",
+          "Mini empada de palmito",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de alho-poró com cream cheese",
+          "Bolinha de calabresa",
+          "Bolinha de queijo",
+          "Bolinha de requeijão",
+          "Coxinha de frango",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente",
+          "Mini cheese burguer"
+        ],
+        "PICOLÉ": [
+          "Carrinho de picolé"
+        ],
+        "BOLO": [
+          "Diversas opções de recheio conforme cardápio"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho",
+          "Brigadeiro de café",
+          "Bombom de uva",
+          "Coco queimado"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "year_id": 1,
+      "name": "Biruta com massa",
+      "subtitle": "50 pessoas",
+      "base_people": 50,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "4 horas",
+      "availability": "Segunda a sábado",
+      "included": "Itens do Biruta sem massa + finger food com massa, mini cachorro-quente, mini cheese burguer, carrinho de picolés, bolo, docinhos, bebidas, decoração e convites.",
+      "rules": "Sem limite de adultos ou crianças.",
+      "sort_order": 5,
+      "active": true,
+      "featured": false,
+      "menu_details": "Inclui os itens do Biruta sem massa.\nFinger food incluso: conchilli 4 queijos ao molho sugo.\nEntrada, salgados fritos e assados, mini cachorro-quente, mini cheese burguer, carrinho de picolé, bolo, docinhos, refrigerantes, sucos concentrados, água, convites, decoração e equipe completa.\nE mais: decoração a consultar, convites, recepcionista, gerente de festa, monitores, garçons/garçonetes, entrada especial do aniversariante, máquina de fumaça, máquina de bolhas, som, microfone, iluminação e baladinha.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração 111 festas (consultar temas)",
+          "Convites Biruta Park",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "SALGADOS ASSADOS": [
+          "Enroladinho de salsicha",
+          "Esfiha aberta de queijo",
+          "Esfiha de carne",
+          "Mini empada de frango",
+          "Mini empada de palmito",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de alho-poró com cream cheese",
+          "Bolinha de calabresa",
+          "Bolinha de queijo",
+          "Bolinha de requeijão",
+          "Coxinha de frango",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente",
+          "Mini cheese burguer"
+        ],
+        "PICOLÉ": [
+          "Carrinho de picolé"
+        ],
+        "BOLO": [
+          "Diversas opções de recheio conforme cardápio"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho",
+          "Brigadeiro de café",
+          "Bombom de uva",
+          "Coco queimado"
+        ],
+        "FINGER FOOD": [
+          "Conchilli 4 queijos ao molho sugo"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "year_id": 1,
+      "name": "Cheff",
+      "subtitle": "50 pessoas",
+      "base_people": 50,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "4 horas",
+      "availability": "Todos os dias e feriados",
+      "included": "Salgados fritos, mini cachorro-quente, mini cheese burguer, pizza no sistema pega pizza, carrinho de picolés, bolo, docinhos, bebidas, decoração e convites.",
+      "rules": "Sem limite de adultos ou crianças.",
+      "sort_order": 6,
+      "active": true,
+      "featured": false,
+      "menu_details": "Entrada, salgados fritos, mini cachorro-quente e mini cheese burguer.\nPizza servida no sistema “pega pizza”.\nCarrinho de picolés, bolo, docinhos irresistíveis, refrigerantes, sucos concentrados, água, convites Biruta Park e decoração 111 festas.\nE mais: decoração a consultar, convites, recepcionista, gerente de festa, monitores, garçons/garçonetes, entrada especial do aniversariante, máquina de fumaça, máquina de bolhas, som, microfone, iluminação e baladinha.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração 111 festas (consultar temas)",
+          "Convites Biruta Park",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "SALGADOS ASSADOS": [
+          "Enroladinho de salsicha",
+          "Esfiha aberta de queijo",
+          "Esfiha de carne",
+          "Mini empada de frango",
+          "Mini empada de palmito",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de alho-poró com cream cheese",
+          "Bolinha de calabresa",
+          "Bolinha de queijo",
+          "Bolinha de requeijão",
+          "Coxinha de frango",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente",
+          "Mini cheese burguer"
+        ],
+        "PICOLÉ": [
+          "Carrinho de picolé"
+        ],
+        "BOLO": [
+          "Diversas opções de recheio conforme cardápio"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho",
+          "Brigadeiro de café",
+          "Bombom de uva",
+          "Coco queimado"
+        ],
+        "PEGA PIZZA": [
+          "Pizza servida no sistema pega pizza"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "year_id": 1,
+      "name": "Gourmet",
+      "subtitle": "50 pessoas",
+      "base_people": 50,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "4 horas",
+      "availability": "Todos os dias e feriados",
+      "included": "Salgados fritos e assados, mini cachorro-quente, mini cheese burguer, finger food, saladinha gourmet, carrinho de picolés, bolo, docinhos, bebidas, decoração e convites.",
+      "rules": "Sem limite de adultos ou crianças.",
+      "sort_order": 7,
+      "active": true,
+      "featured": false,
+      "menu_details": "Entrada completa: batata smile, pipoca salgada, copinho com milho na manteiga, mini cheese burguer, mini cachorro-quente, mini lanche frio, mini pão de queijo e patê de alho com torradas.\nSalgados fritos e assados: enroladinhos, esfihas, mini empadas, mini pizza, quiches, bolinhas, coxinhas, rissole, kibe e outras opções.\nMenu gourmet: conchilli 4 queijos, escondidinho de carne na cerveja com cheddar, escondidinho de frango e milho com catupiry, nhoque 4 queijos ou ravióli ao molho sugo.\nSalada gourmet: mix de folhas, cenoura e queijo parmesão ao molho mostarda.\nSobremesa: carrinho de picolé com 5 sabores.\nBolo, docinhos, refrigerantes, sucos, água, convites, decoração e equipe completa.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração 111 festas (consultar temas)",
+          "Convites Biruta Park",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "SALGADOS ASSADOS": [
+          "Enroladinho de salsicha",
+          "Esfiha aberta de queijo",
+          "Esfiha de carne",
+          "Mini empada de frango",
+          "Mini empada de palmito",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de alho-poró com cream cheese",
+          "Bolinha de calabresa",
+          "Bolinha de queijo",
+          "Bolinha de requeijão",
+          "Coxinha de frango",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente",
+          "Mini cheese burguer"
+        ],
+        "PICOLÉ": [
+          "Carrinho de picolé"
+        ],
+        "BOLO": [
+          "Diversas opções de recheio conforme cardápio"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho",
+          "Brigadeiro de café",
+          "Bombom de uva",
+          "Coco queimado"
+        ],
+        "FINGER FOOD": [
+          "Conchilli 4 queijos ao molho sugo"
+        ],
+        "GOURMET": [
+          "Finger food",
+          "Saladinha gourmet",
+          "Carrinho de picolés",
+          "Mini cheese burguer"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "year_id": 2,
+      "name": "Infantil",
+      "subtitle": "20 crianças + 10 pessoas",
+      "base_people": 30,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "3 horas",
+      "availability": "Segunda a quarta",
+      "included": "Entrada, salgados, mini cachorro-quente, finger food, bolo, carrinho de picolé, refrigerantes, sucos, água, decoração, convites e equipe de festa.",
+      "rules": "Crianças de 0 a 2 anos não pagam. Apenas aniversariante não paga.",
+      "sort_order": 8,
+      "active": true,
+      "featured": false,
+      "menu_details": "Entrada: batata smile, pipoca salgada e patê de alho com torradas.\nSalgados: bolinha de queijo e coxinha de frango.\nLanche: mini cachorro-quente.\nFinger food: massa tipo penne ao molho sugo.\nBolo: brigadeiro com doce de leite ou mousse de chocolate.\nPicolé: carrinho de picolé.\nBebidas: Coca-Cola, Guaraná Kuat, sucos de laranja com gominhos e uva, água.\nEquipe e festa: 4 monitores, 2 garçons, recepcionista/gerente, entrada especial, fumaça, bolhas, som, microfone, iluminação e baladinha.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Patê de alho com torradas"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de queijo",
+          "Coxinha de frango"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente"
+        ],
+        "FINGER FOOD": [
+          "Massa tipo penne ao molho sugo"
+        ],
+        "BOLO": [
+          "Brigadeiro com doce de leite",
+          "Mousse de chocolate"
+        ],
+        "PICOLÉ": [
+          "Carrinho de picolé"
+        ],
+        "BEBIDAS": [
+          "Coca-Cola",
+          "Guaraná Kuat",
+          "Suco de laranja com gominhos",
+          "Suco de uva",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração (consultar)",
+          "Convites virtuais",
+          "4 monitores",
+          "2 garçons",
+          "Recepcionista / gerente de festa"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "year_id": 2,
+      "name": "Escolar",
+      "subtitle": "40 pessoas",
+      "base_people": 40,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "3 horas",
+      "availability": "Segunda a quarta",
+      "included": "Entrada, salgados, mini cachorro-quente, bolo, docinhos, refrigerantes, sucos, água, decoração, convites, hora do piquenique e equipe de festa.",
+      "rules": "Sem limite de adultos ou crianças dentro das 40 pessoas.",
+      "sort_order": 9,
+      "active": true,
+      "featured": false,
+      "menu_details": "Entrada: batata smile, pipoca salgada, mini pão de queijo e patê de alho com torradas.\nSalgados: esfiha de carne, mini pizza de muçarela, bolinha de queijo e coxinha de frango.\nLanche: mini cachorro-quente.\nBolo: brigadeiro, brigadeiro com doce de leite, mousse de chocolate, leite ninho, choco ninho ou mousse de chocolate com doce de leite.\nDocinhos: casadinho e brigadeiro.\nBebidas: Coca-Cola Original, Coca-Cola Zero, Guaraná Kuat, Fanta Guaraná Zero, Fanta Laranja, Fanta Uva, Sprite, sucos de laranja com gominhos, uva, manga e goiaba, água.\nE mais: decoração a consultar, convites físico e virtual, hora do piquenique, recepcionista, gerente de festa, monitores por brinquedo, garçons e garçonetes, entrada especial, fumaça, bolhas, som, microfone, iluminação e baladinha.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração 111 festas (consultar temas)",
+          "Convites Biruta Park",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "SALGADOS ASSADOS": [
+          "Esfiha de carne",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de queijo",
+          "Coxinha de frango"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente"
+        ],
+        "BOLO": [
+          "Brigadeiro",
+          "Brigadeiro com doce de leite",
+          "Mousse de chocolate",
+          "Leite ninho",
+          "Choco ninho",
+          "Mousse de chocolate com doce de leite"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "year_id": 2,
+      "name": "Birutinha",
+      "subtitle": "50 pessoas",
+      "base_people": 50,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "3 horas",
+      "availability": "Segunda a sexta",
+      "included": "Entrada, salgados fritos e assados, mini cachorro-quente, bolo, docinhos, refrigerantes, sucos, água, decoração, convites e equipe de festa.",
+      "rules": "Crianças de 0 a 5 anos não pagam. Mamãe, papai, aniversariante e até 2 irmãos não pagam.",
+      "sort_order": 10,
+      "active": true,
+      "featured": false,
+      "menu_details": "Entrada: batata smile, pipoca salgada, mini pão de queijo e patê de alho com torradas.\nSalgados: enroladinho de salsicha, esfiha de calabresa, esfiha de carne, mini pizza de muçarela, bolinha de queijo, coxinha de frango, coxinha de doce de leite, croquete de carne e kibe de carne com queijo.\nLanche: mini cachorro-quente.\nBolo: diversas opções, incluindo brigadeiro, mousse de chocolate, leite ninho, choco ninho, sensação, alpino, prestígio, dois amores, sonho de valsa e ouro branco.\nDocinhos: casadinho, brigadeiro, beijinho, bicho de pé e cajuzinho.\nBebidas: refrigerantes, sucos e água.\nE mais: decoração a consultar, convites, recepcionista, gerente de festa, monitores, garçons/garçonetes, entrada especial do aniversariante, máquina de fumaça, máquina de bolhas, som, microfone, iluminação e baladinha.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração 111 festas (consultar temas)",
+          "Convites Biruta Park",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "SALGADOS ASSADOS": [
+          "Enroladinho de salsicha",
+          "Esfiha de calabresa",
+          "Esfiha de carne",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de queijo",
+          "Coxinha de frango",
+          "Coxinha de doce de leite",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente"
+        ],
+        "BOLO": [
+          "Brigadeiro",
+          "Brigadeiro com doce de leite",
+          "Mousse de chocolate",
+          "Dois Amores",
+          "Prestígio",
+          "Leite ninho",
+          "Choco ninho",
+          "Sensação",
+          "Alpino"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "year_id": 2,
+      "name": "Biruta sem massa",
+      "subtitle": "50 pessoas",
+      "base_people": 50,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "4 horas",
+      "availability": "Segunda a sábado",
+      "included": "Salgados fritos e assados, mini cachorro-quente, mini cheese burguer, carrinho de picolés, bolo, docinhos, refrigerantes, sucos, água, decoração e convites.",
+      "rules": "Sem limite de adultos ou crianças. Carrinho de picolé servido após o piquenique.",
+      "sort_order": 11,
+      "active": true,
+      "featured": false,
+      "menu_details": "Entrada: batata smile, pipoca salgada, mini pão de queijo e patê de alho com torradas.\nSalgados fritos e assados: enroladinho de salsicha, esfihas, mini empadas, mini pizza, bolinhas, coxinhas, kibe e outras opções do cardápio.\nLanches: mini cachorro-quente e mini cheese burguer.\nSobremesa: carrinho de picolé.\nBolo e docinhos: bolo com opções de sabores e docinhos variados.\nBebidas: refrigerantes, sucos concentrados e água.\nE mais: decoração a consultar, convites, recepcionista, gerente de festa, monitores, garçons/garçonetes, entrada especial do aniversariante, máquina de fumaça, máquina de bolhas, som, microfone, iluminação e baladinha.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração 111 festas (consultar temas)",
+          "Convites Biruta Park",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "SALGADOS ASSADOS": [
+          "Enroladinho de salsicha",
+          "Esfiha aberta de queijo",
+          "Esfiha de carne",
+          "Mini empada de frango",
+          "Mini empada de palmito",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de alho-poró com cream cheese",
+          "Bolinha de calabresa",
+          "Bolinha de queijo",
+          "Bolinha de requeijão",
+          "Coxinha de frango",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente",
+          "Mini cheese burguer"
+        ],
+        "PICOLÉ": [
+          "Carrinho de picolé"
+        ],
+        "BOLO": [
+          "Diversas opções de recheio conforme cardápio"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho",
+          "Brigadeiro de café",
+          "Bombom de uva",
+          "Coco queimado"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "year_id": 2,
+      "name": "Biruta com massa",
+      "subtitle": "50 pessoas",
+      "base_people": 50,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "4 horas",
+      "availability": "Segunda a sábado",
+      "included": "Itens do Biruta sem massa + finger food com massa, mini cachorro-quente, mini cheese burguer, carrinho de picolés, bolo, docinhos, bebidas, decoração e convites.",
+      "rules": "Sem limite de adultos ou crianças.",
+      "sort_order": 12,
+      "active": true,
+      "featured": false,
+      "menu_details": "Inclui os itens do Biruta sem massa.\nFinger food incluso: conchilli 4 queijos ao molho sugo.\nEntrada, salgados fritos e assados, mini cachorro-quente, mini cheese burguer, carrinho de picolé, bolo, docinhos, refrigerantes, sucos concentrados, água, convites, decoração e equipe completa.\nE mais: decoração a consultar, convites, recepcionista, gerente de festa, monitores, garçons/garçonetes, entrada especial do aniversariante, máquina de fumaça, máquina de bolhas, som, microfone, iluminação e baladinha.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração 111 festas (consultar temas)",
+          "Convites Biruta Park",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "SALGADOS ASSADOS": [
+          "Enroladinho de salsicha",
+          "Esfiha aberta de queijo",
+          "Esfiha de carne",
+          "Mini empada de frango",
+          "Mini empada de palmito",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de alho-poró com cream cheese",
+          "Bolinha de calabresa",
+          "Bolinha de queijo",
+          "Bolinha de requeijão",
+          "Coxinha de frango",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente",
+          "Mini cheese burguer"
+        ],
+        "PICOLÉ": [
+          "Carrinho de picolé"
+        ],
+        "BOLO": [
+          "Diversas opções de recheio conforme cardápio"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho",
+          "Brigadeiro de café",
+          "Bombom de uva",
+          "Coco queimado"
+        ],
+        "FINGER FOOD": [
+          "Conchilli 4 queijos ao molho sugo"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "year_id": 2,
+      "name": "Cheff",
+      "subtitle": "50 pessoas",
+      "base_people": 50,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "4 horas",
+      "availability": "Todos os dias e feriados",
+      "included": "Salgados fritos, mini cachorro-quente, mini cheese burguer, pizza no sistema pega pizza, carrinho de picolés, bolo, docinhos, bebidas, decoração e convites.",
+      "rules": "Sem limite de adultos ou crianças.",
+      "sort_order": 13,
+      "active": true,
+      "featured": false,
+      "menu_details": "Entrada, salgados fritos, mini cachorro-quente e mini cheese burguer.\nPizza servida no sistema “pega pizza”.\nCarrinho de picolés, bolo, docinhos irresistíveis, refrigerantes, sucos concentrados, água, convites Biruta Park e decoração 111 festas.\nE mais: decoração a consultar, convites, recepcionista, gerente de festa, monitores, garçons/garçonetes, entrada especial do aniversariante, máquina de fumaça, máquina de bolhas, som, microfone, iluminação e baladinha.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração 111 festas (consultar temas)",
+          "Convites Biruta Park",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "SALGADOS ASSADOS": [
+          "Enroladinho de salsicha",
+          "Esfiha aberta de queijo",
+          "Esfiha de carne",
+          "Mini empada de frango",
+          "Mini empada de palmito",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de alho-poró com cream cheese",
+          "Bolinha de calabresa",
+          "Bolinha de queijo",
+          "Bolinha de requeijão",
+          "Coxinha de frango",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente",
+          "Mini cheese burguer"
+        ],
+        "PICOLÉ": [
+          "Carrinho de picolé"
+        ],
+        "BOLO": [
+          "Diversas opções de recheio conforme cardápio"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho",
+          "Brigadeiro de café",
+          "Bombom de uva",
+          "Coco queimado"
+        ],
+        "PEGA PIZZA": [
+          "Pizza servida no sistema pega pizza"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "year_id": 2,
+      "name": "Gourmet",
+      "subtitle": "50 pessoas",
+      "base_people": 50,
+      "base_price": 0,
+      "card_price": null,
+      "additional_price": 0,
+      "duration": "4 horas",
+      "availability": "Todos os dias e feriados",
+      "included": "Salgados fritos e assados, mini cachorro-quente, mini cheese burguer, finger food, saladinha gourmet, carrinho de picolés, bolo, docinhos, bebidas, decoração e convites.",
+      "rules": "Sem limite de adultos ou crianças.",
+      "sort_order": 14,
+      "active": true,
+      "featured": false,
+      "menu_details": "Entrada completa: batata smile, pipoca salgada, copinho com milho na manteiga, mini cheese burguer, mini cachorro-quente, mini lanche frio, mini pão de queijo e patê de alho com torradas.\nSalgados fritos e assados: enroladinhos, esfihas, mini empadas, mini pizza, quiches, bolinhas, coxinhas, rissole, kibe e outras opções.\nMenu gourmet: conchilli 4 queijos, escondidinho de carne na cerveja com cheddar, escondidinho de frango e milho com catupiry, nhoque 4 queijos ou ravióli ao molho sugo.\nSalada gourmet: mix de folhas, cenoura e queijo parmesão ao molho mostarda.\nSobremesa: carrinho de picolé com 5 sabores.\nBolo, docinhos, refrigerantes, sucos, água, convites, decoração e equipe completa.",
+      "categories": {
+        "ENTRADAS": [
+          "Batata smile",
+          "Pipoca salgada",
+          "Mini pão de queijo",
+          "Patê de alho com torradas"
+        ],
+        "BEBIDAS": [
+          "Refrigerantes variados",
+          "Sucos concentrados",
+          "Água"
+        ],
+        "E MAIS": [
+          "Decoração 111 festas (consultar temas)",
+          "Convites Biruta Park",
+          "Recepcionista",
+          "Gerente de festa",
+          "Monitores",
+          "Garçons e garçonetes"
+        ],
+        "HORA DO PARABÉNS": [
+          "Entrada especial do aniversariante",
+          "Máquina de fumaça",
+          "Máquina de bolhas",
+          "Som e microfone",
+          "Iluminação",
+          "Baladinha"
+        ],
+        "SALGADOS ASSADOS": [
+          "Enroladinho de salsicha",
+          "Esfiha aberta de queijo",
+          "Esfiha de carne",
+          "Mini empada de frango",
+          "Mini empada de palmito",
+          "Mini pizza de muçarela"
+        ],
+        "SALGADOS FRITOS": [
+          "Bolinha de alho-poró com cream cheese",
+          "Bolinha de calabresa",
+          "Bolinha de queijo",
+          "Bolinha de requeijão",
+          "Coxinha de frango",
+          "Croquete de carne",
+          "Kibe de carne com queijo"
+        ],
+        "LANCHE": [
+          "Mini cachorro-quente",
+          "Mini cheese burguer"
+        ],
+        "PICOLÉ": [
+          "Carrinho de picolé"
+        ],
+        "BOLO": [
+          "Diversas opções de recheio conforme cardápio"
+        ],
+        "DOCINHOS": [
+          "Casadinho",
+          "Brigadeiro",
+          "Beijinho",
+          "Bicho de pé",
+          "Cajuzinho",
+          "Brigadeiro de café",
+          "Bombom de uva",
+          "Coco queimado"
+        ],
+        "FINGER FOOD": [
+          "Conchilli 4 queijos ao molho sugo"
+        ],
+        "GOURMET": [
+          "Finger food",
+          "Saladinha gourmet",
+          "Carrinho de picolés",
+          "Mini cheese burguer"
+        ]
+      }
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "title": "Orçamento online",
+      "subtitle": "Monte uma simulação personalizada para sua festa.",
+      "button_text": "Fazer meu orçamento",
+      "button_link": "/orcamento",
+      "image_url": "",
+      "active": true,
+      "sort_order": 1
+    }
+  ],
+  "promotions": [
+    {
+      "id": 1,
+      "title": "Promoção do mês",
+      "description": "Participe da nossa campanha especial e descubra seu presente.",
+      "button_text": "Participar agora",
+      "link": "https://mesdasmaes.birutapark.com.br",
+      "image_url": "",
+      "starts_at": null,
+      "ends_at": null,
+      "active": true,
+      "highlight": true
+    }
+  ],
+  "testimonials": [],
+  "leads": [],
+  "next": {
+    "year": 3,
+    "package": 15,
+    "banner": 2,
+    "promotion": 2,
+    "lead": 1,
+    "testimonial": 1
+  }
+}
