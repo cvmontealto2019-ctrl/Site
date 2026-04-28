@@ -1,0 +1,20 @@
+<form class="form-grid cat-form" method="post" action="/admin/package">
+  <% if(p){ %><input type="hidden" name="id" value="<%= p.id %>"><% } %>
+  <input name="name" value="<%= p?p.name:'' %>" placeholder="Nome do pacote">
+  <input name="subtitle" value="<%= p?p.subtitle:'' %>" placeholder="Ex: Para 50 pessoas">
+  <input name="base_people" type="number" value="<%= p?p.base_people:'' %>" placeholder="Convidados base">
+  <input name="duration" value="<%= p?p.duration:'' %>" placeholder="Duração">
+  <input name="availability" value="<%= p?p.availability:'' %>" placeholder="Disponibilidade">
+  <input name="sort_order" type="number" value="<%= p?p.sort_order:'' %>" placeholder="Ordem">
+  <textarea name="summary" placeholder="Resumo curto do pacote, sem preço"><%= p?p.summary:'' %></textarea>
+  <textarea name="rules" placeholder="Regras importantes"><%= p?p.rules:'' %></textarea>
+  <input type="hidden" name="categories_json" class="categories-json">
+  <div class="cat-editor">
+    <% categoriesOrder.forEach(cat=>{ const arr=p&&p.categories&&p.categories[cat]?p.categories[cat]:[]; %>
+      <label><span><%= cat %></span><textarea class="cat-textarea" data-cat="<%= cat %>" placeholder="Um item por linha"><%= Array.isArray(arr)?arr.join('\n'):'' %></textarea></label>
+    <% }) %>
+  </div>
+  <label><input type="checkbox" name="active" <%= !p || p.active?'checked':'' %>> Ativo</label>
+  <label><input type="checkbox" name="featured" <%= p&&p.featured?'checked':'' %>> Destaque</label>
+  <button class="btn">Salvar pacote</button>
+</form>

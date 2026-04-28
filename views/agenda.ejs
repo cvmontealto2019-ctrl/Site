@@ -1,0 +1,16 @@
+<%- include('partials/head') %>
+<main class="agenda-shell">
+  <header class="agenda-top"><div><img src="<%= s.logo_url || '/public/assets/logo.svg' %>" alt="Biruta"><h1>Agenda Monise</h1><p>Calendário interno de decoração</p></div><nav><a href="/admin">Admin</a><a href="/admin/usuarios">Usuários</a><a href="/admin/logout">Sair</a></nav></header>
+  <% if(saved){ %><div class="toast-ok">Alterações salvas com sucesso!</div><% } %>
+  <% const monthNames=['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro']; const first=new Date(year,month-1,1); const last=new Date(year,month,0); const startDay=first.getDay(); const prevMonth=month===1?12:month-1; const prevYear=month===1?year-1:year; const nextMonth=month===12?1:month+1; const nextYear=month===12?year+1:year; const byDate={}; events.forEach(e=>{(byDate[e.date] ||= []).push(e)}); %>
+  <section class="calendar-card">
+    <div class="calendar-head"><a class="cal-arrow" href="/agendamonise?year=<%= prevYear %>&month=<%= prevMonth %>">‹</a><h2><%= monthNames[month-1] %> de <%= year %></h2><a class="cal-arrow" href="/agendamonise?year=<%= nextYear %>&month=<%= nextMonth %>">›</a></div>
+    <div class="weekdays"><span>Dom</span><span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>Sáb</span></div>
+    <div class="calendar-grid">
+      <% for(let i=0;i<startDay;i++){ %><div class="day blank"></div><% } %>
+      <% for(let d=1; d<=last.getDate(); d++){ const dateStr=`${year}-${String(month).padStart(2,'0')}-${String(d).padStart(2,'0')}`; const list=byDate[dateStr]||[]; const today=new Date().toISOString().slice(0,10)===dateStr; %>
+        <a class="day <%= today?'today':'' %>" href="/agendamonise/dia/<%= dateStr %>"><strong><%= d %></strong><% if(list.length){ %><em><%= list.length %> festa<%= list.length>1?'s':'' %></em><% list.slice(0,2).forEach(ev=>{ %><small><%= ev.birthday_name || ev.responsible_name %> • <%= ev.theme %></small><% }) %><% } else { %><small class="empty-day">Adicionar festa</small><% } %></a>
+      <% } %>
+    </div>
+  </section>
+</main></body></html>
