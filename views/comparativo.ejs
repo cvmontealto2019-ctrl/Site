@@ -1,0 +1,22 @@
+<%- include('partials/head') %><%- include('partials/header') %>
+<main class="section compare-page">
+  <div class="section-head">
+    <span class="pill">Comparativo de pacotes</span>
+    <h1>Compare as opções do Biruta Park</h1>
+    <p>Use esta tela para visualizar rapidamente o que cada pacote oferece. Para valores, datas e disponibilidade, fale com nossa equipe pelo WhatsApp.</p>
+  </div>
+  <div class="compare-table-wrap">
+    <table class="compare-table">
+      <thead><tr><th>Item</th><% packs.forEach(p=>{ %><th><%= p.name %><small><%= p.subtitle %></small></th><% }) %></tr></thead>
+      <tbody>
+        <tr><td>Tempo de festa</td><% packs.forEach(p=>{ %><td><%= p.duration %></td><% }) %></tr>
+        <tr><td>Disponibilidade</td><% packs.forEach(p=>{ %><td><%= p.availability %></td><% }) %></tr>
+        <% categoriesOrder.forEach(cat=>{ %>
+          <tr><td><%= cat %></td><% packs.forEach(p=>{ const items=(p.categories||{})[cat]||[]; %><td><% if(items.length){ %><ul><% items.slice(0,8).forEach(i=>{ %><li><%= i %></li><% }) %><% if(items.length>8){ %><li>+ <%= items.length-8 %> itens</li><% } %></ul><% } else { %><span class="muted">Não incluso</span><% } %></td><% }) %></tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+  <div class="section cta-section small-cta"><h2>Gostou de algum pacote?</h2><p>Envie as informações da sua festa e nossa equipe retorna com disponibilidade e valores.</p><a class="btn" href="/orcamento">Solicitar orçamento</a></div>
+</main>
+<%- include('partials/footer') %>
