@@ -1,0 +1,11 @@
+<%- include('partials/head') %>
+<main class="login">
+  <form method="post" autocomplete="off">
+    <h1><%= mode==='agenda' ? 'Agenda Biruta Park' : 'Admin Biruta Park' %></h1>
+    <p class="muted"><%= mode==='agenda' ? 'Acesso interno para agenda de decoração.' : 'Painel interno do site.' %></p>
+    <% if(error){ %><p class="error"><%= error %></p><% } %>
+    <input name="login" placeholder="Login" value="" autocomplete="off" autocapitalize="none" spellcheck="false">
+    <input name="password" type="password" placeholder="Senha" value="" autocomplete="new-password">
+    <button class="btn">Entrar</button>
+  </form>
+</main></body></html>
